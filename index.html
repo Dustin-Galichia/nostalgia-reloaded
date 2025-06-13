@@ -317,7 +317,7 @@
         </section>
 
         <!-- Setup Guides Section -->
-        <section>
+        <section class="py-5">
             <h2>Setup Guides</h2>
 
             <p>
@@ -327,38 +327,90 @@
                 games in no time.
             </p>
 
-            <article>
-                <h3>Installing Custom Firmware</h3>
+            <!-- Custom Firmware Modal Component -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#customFirmware">
+                Installing Custom Firmware
+            </button>
+            <div class="modal fade" tabindex="-1" id="customFirmware" aria-labelledby="customFirmwareLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <article class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="customFirmwareLabel">Installing Custom Firmware</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
 
-                <!-- Coming Soon -->
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
-                    quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
-                    corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
-                </p>
-            </article>
+                        <div class="modal-body">
+                            <!-- Coming Soon -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
+                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
+                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
+                            </p>
+                        </div>
 
-            <article>
-                <h3>Transfering ROMs to Your Device</h3>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
 
-                <!-- Coming Soon -->
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
-                    quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
-                    corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
-                </p>
-            </article>
+            <!-- Tranfering ROMs Modal Component -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#transferRoms">
+                Transfering ROMs to Your Device
+            </button>
+            <div class="modal fade" tabindex="-1" id="transferRoms" aria-labelledby="transferRomsLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <article class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="transferRomsLabel">Transfering ROMs to Your Device</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
 
-            <article>
-                <h3>Finding ROMs</h3>
+                        <div class="modal-body">
+                            <!-- Coming Soon -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
+                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
+                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
+                            </p>
+                        </div>
 
-                <!-- Coming Soon -->
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
-                    quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
-                    corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
-                </p>
-            </article>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            
+            <!-- Finding ROM's Modal Component -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#findRoms">
+                Finding ROMs
+            </button>
+            <div class="modal fade" tabindex="-1" id="findRoms" aria-labelledby="findingRomsLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <article class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="findingRomsLabel">Finding ROMs</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <!-- Coming Soon -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
+                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
+                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
+                            </p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
 
         <!-- Community Section -->
@@ -436,6 +488,7 @@
                 <input type="submit" value="submit">
             </form>
         </section>
+        
     </main>
     
     <footer>
