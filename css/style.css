@@ -1,0 +1,33 @@
+
+:root {
+    --gc-indigo: #693999;
+    --gc-gray: #E5E7E8;
+    --gc-yellow: #f3c600;
+    --gc-silver: #D2D3D5;
+    --gc-green: #00b550;
+    --gc-red: #f24c4c;
+    --gc-dark: #1f1f1f;
+    --gc-white: #ffffff;    
+}
+
+body {
+    background: linear-gradient(to top, #5A4FCF, #693999);
+    color: var(--gc-silver);
+}
+
+h1, h2 {
+    font-family: 'Silkscreen';
+    color: var(--gc-yellow);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Rubik';
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.card-text, .accordion-body > p {
+    font-size: 1.1rem;
+}
