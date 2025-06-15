@@ -31,3 +31,14 @@ p {
 .card-text, .accordion-body > p {
     font-size: 1.1rem;
 }
+
+.card, .accordion-body {
+    background-color: var(--gc-silver);
+}
+
+.btn-style {
+    background-color: var(--gc-yellow);
+    color: var(--gc-dark);
+    border: none;
+}
+
