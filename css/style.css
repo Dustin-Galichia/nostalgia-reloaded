@@ -46,3 +46,19 @@ body {
     width: 75%;
     margin: 0 auto;
 }
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-text {
+    flex-grow: 1;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
