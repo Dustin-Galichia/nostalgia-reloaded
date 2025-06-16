@@ -64,7 +64,7 @@
     <main class="container">
         <!-- Home/Hero Section -->
         <section class="py-5 text-center">
-            <h1>Nostalgia Reloaded - Emulators & Timeless Games</h1>
+            <h1 class="mb-4">Nostalgia Reloaded - Emulators & Timeless Games</h1>
 
             <p>
                 Welcome to your ultimate destination for emulator enthusiasts and retro gamers!
@@ -82,7 +82,7 @@
 
         <!-- Emulator Device Review Section  -->
         <section class="py-5 text-center">
-            <h2>Emulator Reviews</h2>
+            <h2 class="mb-4">Emulator Reviews</h2>
 
             <p>
                 Whether you're just getting started with handheld emulators or you're a seasoned retro 
@@ -224,7 +224,7 @@
 
         <!-- Retro Game Library -->
         <section class="py-5">
-            <h2 class="text-center">Retro Game Library</h2>
+            <h2 class="text-center mb-4">Retro Game Library</h2>
             
             <p class="text-center">
                 From 8-bit adventures to pixel-perfect RPGs, this is where the magic lives. These games 
@@ -329,7 +329,7 @@
 
         <!-- Setup Guides Section -->
         <section class="py-5 text-center">
-            <h2>Setup Guides</h2>
+            <h2 class="mb-4">Setup Guides</h2>
 
             <p>
                 New to emulators? No worries — this section has your back. Whether you're setting up your 
@@ -481,7 +481,7 @@
 
         <!-- Retro News Section -->
         <section class="py-5">
-            <h2 class="text-center">Latest Retro News</h2>
+            <h2 class="text-center mb-4">Latest Retro News</h2>
 
             <p class="text-center">
                 Stay in the loop with the latest in the retro gaming world. From new emulator releases to 
@@ -556,25 +556,32 @@
 
         <!-- Contact Section -->
         <section class="py-5">
-            <h2 class="text-center">Contact</h2>
+            <h2 class="text-center mb-4">Contact</h2>
 
-            <form action="" method="post" class="w-100 mx-auto" style="max-width: 600px;">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name:</label>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required>
+            <div class="card mx-auto" style="width: 50%;">
+                <div class="card-body">
+                    <form action="" method="post" class="w-100 mx-auto" style="max-width: 600px;">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="john.doe@example.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message:</label>
+                            <textarea name="message" id="message" class="form-control" rows="5" placeholder="Please enter your message" required></textarea>
+                        </div>
+
+                        <button class="btn btn-primary btn-style " type="submit">Submit</button>
+                    </form>
                 </div>
+            </div>
+                
 
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email:</label>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="john.doe@example.com" required>
-                </div>
-
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message:</label>
-                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Please enter your message" required></textarea>
-                </div>
-
-                <button class="btn btn-primary btn-style" type="submit">Submit</button>
             </form>
         </section>        
     </main>
