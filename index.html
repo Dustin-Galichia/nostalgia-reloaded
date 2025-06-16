@@ -328,100 +328,141 @@
         </section>
 
         <!-- Setup Guides Section -->
-        <section class="py-5">
-            <h2 class="text-center">Setup Guides</h2>
+        <section class="py-5 text-center">
+            <h2>Setup Guides</h2>
 
-            <p class="text-center">
+            <p>
                 New to emulators? No worries — this section has your back. Whether you're setting up your 
                 very first handheld device or looking to upgrade your firmware, these step-by-step guides 
                 will walk you through everything clearly and simply. You'll be playing your favorite retro 
                 games in no time.
             </p>
-
-            <!-- Custom Firmware Modal Component -->
-            <button class="btn btn-primary btn-style" type="button" data-bs-toggle="modal" data-bs-target="#customFirmware">
-                Installing Custom Firmware
-            </button>
-            <div class="modal fade" tabindex="-1" id="customFirmware" aria-labelledby="customFirmwareLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <article class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="customFirmwareLabel">Installing Custom Firmware</h3>
-                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            <!-- Coming Soon -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
-                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
-                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
-                            </p>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <!-- Tranfering ROMs Modal Component -->
-            <button class="btn btn-primary btn-style" type="button" data-bs-toggle="modal" data-bs-target="#transferRoms">
-                Transfering ROMs to Your Device
-            </button>
-            <div class="modal fade" tabindex="-1" id="transferRoms" aria-labelledby="transferRomsLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <article class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="transferRomsLabel">Transfering ROMs to Your Device</h3>
-                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            <!-- Coming Soon -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
-                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
-                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
-                            </p>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
             
-            <!-- Finding ROM's Modal Component -->
-            <button class="btn btn-primary btn-style" type="button" data-bs-toggle="modal" data-bs-target="#findRoms">
-                Finding ROMs
-            </button>
-            <div class="modal fade" tabindex="-1" id="findRoms" aria-labelledby="findingRomsLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <article class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="findingRomsLabel">Finding ROMs</h3>
-                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
+            <div class="row">
+                <!-- Custom Firmware Modal Component -->
+                <div class="col-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Installing Custom Firmware</h4>
 
-                        <div class="modal-body">
-                            <!-- Coming Soon -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
-                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
-                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
-                            </p>
-                        </div>
+                            <p class="card-text">Learn how to safetly install custom firmware on your emulator device.</p>
 
-                        <div class="modal-footer">
-                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary btn-style" type="button" data-bs-toggle="modal" data-bs-target="#customFirmware">
+                                Open Guide
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" tabindex="-1" id="customFirmware" aria-labelledby="customFirmwareLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <article class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="customFirmwareLabel">Installing Custom Firmware</h3>
+                                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <!-- Coming Soon -->
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
+                                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
+                                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
+                                            </p>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            
                         </div>
-                    </article>
+                    </div>
                 </div>
-            </div>
+
+                <!-- Transfering ROMs Modal Component -->
+                <div class="col-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Transfering ROMs</h4>
+
+                            <p class="card-text">
+                                Step-by-step instructions for getting your game files onto your device.
+                            </p>
+
+                            <button class="btn btn-primary btn-style" type="button" data-bs-toggle="modal" data-bs-target="#transferRoms" aria-hidden="true">
+                                Open Guide
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" tabindex="-1" id="transferRoms" aria-labelledby="transferRomsLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <article class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="transferRomsLabel">Transfering ROMs to Your Device</h3>
+                                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <!-- Coming Soon -->
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
+                                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
+                                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
+                                            </p>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Finding ROMs Modal Component -->
+                <div class="col-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Finding ROMs</h4>
+
+                            <p class="card-text">Not sure where to look? We'll point you in the right (and legal) direction.</p>
+
+                            <button class="btn btn-primary btn-style" type="button" data-bs-toggle="modal" data-bs-target="#findRoms">
+                                Open Guide
+                            </button>
+
+                            <!-- Modal Control -->
+                            
+                            <div class="modal fade" tabindex="-1" id="findRoms" aria-labelledby="findingRomsLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <article class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="findingRomsLabel">Finding ROMs</h3>
+                                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <!-- Coming Soon -->
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta itaque quis 
+                                                quibusdam tenetur veritatis totam iste delectus inventore debitis cumque molestiae fuga 
+                                                corporis, consequuntur suscipit provident omnis! Ipsa, nisi!
+                                            </p>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </section>
 
         <!-- Community Section (COMING SOON)-->
