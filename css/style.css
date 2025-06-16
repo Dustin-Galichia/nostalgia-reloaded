@@ -127,7 +127,14 @@ body {
     filter: invert(29%) sepia(89%) saturate(7487%) hue-rotate(357deg) brightness(108%) contrast(121%);
 }
 
-
 .nav-link {
     color: var(--gc-silver);
+}
+
+.hover-glow {
+    transition: transform .2s ease;
+}
+.hover-glow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px var(--gc-green);
 }
