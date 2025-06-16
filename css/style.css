@@ -62,3 +62,41 @@ body {
     justify-content: space-between;
     flex-grow: 1;
 }
+
+.accordion-item {
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--gc-silver);
+    overflow: hidden;
+}
+
+.accordion-item:first-child,
+.accordion-item:last-child {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.accordion-button {
+    font-family: 'Silkscreen', sans-serif;
+    color: var(--gc-yellow);
+    background-color: var(--gc-dark);
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--gc-indigo);
+    color: var(--gc-yellow);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    box-shadow: 2px salmon;
+}
+
+.accordion-button::after {
+    filter: invert(57%) sepia(79%) saturate(579%) hue-rotate(95deg) brightness(99%) contrast(97%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(29%) sepia(89%) saturate(7487%) hue-rotate(357deg) brightness(108%) contrast(121%);
+}
