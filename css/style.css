@@ -112,3 +112,22 @@ body {
 .accordion-button:not(.collapsed)::after {
     filter: invert(29%) sepia(89%) saturate(7487%) hue-rotate(357deg) brightness(108%) contrast(121%);
 }
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/test.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--gc-dark);
+}
+.navbar-toggler {
+    filter: invert(57%) sepia(79%) saturate(579%) hue-rotate(95deg) brightness(99%) contrast(97%);
+}
+.navbar-toggler:not(.collapsed) {
+    filter: invert(29%) sepia(89%) saturate(7487%) hue-rotate(357deg) brightness(108%) contrast(121%);
+}
+
+
+.nav-link {
+    color: var(--gc-silver);
+}
